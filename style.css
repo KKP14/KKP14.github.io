@@ -1,0 +1,446 @@
+body{
+	background-image: url("images/BackgroundImage.jpg");
+	background-size: cover;
+}
+
+
+
+.input-group{
+	width:100%;
+	left: 300px;
+	
+	
+}
+
+.title{
+	text-align: right;
+	padding-left: 300px;
+}
+
+.Welcome_Message{
+	text-align:left;
+	padding-left: 50px;
+	
+}
+
+.container{
+	display: flex;
+	color:white;
+}
+
+
+.register{
+	text-align:right;
+	white-space: nowrap;
+	
+}
+
+.btn-info{
+	position:relative;
+	width:20%;
+	left: 125%;
+	top:10%
+	
+}
+
+.container1{
+	display:grid;
+	justify-content:left;
+	align-items:center;
+	transform: translate(0%,-10%)
+	
+}
+.container1 h2{
+	padding-left: 550px;
+	color:white;
+	font-size:60px;
+	
+}
+
+.container1 p{
+	padding-left: 500px;
+	color:white;
+	font-size:24px;
+}
+.btn-primary{
+	position:relative;
+	width:20%;
+	top:80%;
+	left:85%;
+	
+	
+}
+.jersey-20-regular {
+  font-family: "Jersey 20", sans-serif;
+  font-weight: 50;
+  font-style: normal;
+}
+
+#form{
+	padding-left: 450px;
+}
+
+.success{
+	display: none;
+	color: green;
+	font-size: 24px;
+	padding-left: 480px;
+	
+	
+}
+
+#form button{
+	background-color: blue;
+	width: 100px;
+	height: 50px;
+	font-size: 24px;
+	transform: translate(90%,0%);
+}
+
+.form-group{
+	width:100%;
+	color:white;
+	font-size: 24px;
+	
+
+	
+}
+
+.form-group input{
+	color:black;
+	font-size: 20px;
+	width: 200px;
+	align-items:center;
+	
+	
+}
+
+.form-group.success input{
+	color: green;
+}
+
+.form-group.error input{
+	color: red;
+}
+
+.form-group a{
+	width: 75%;
+	display: block;
+}
+
+.form-outline{
+	width:80%;
+	padding-left: 350px;
+}
+
+.container2{
+	padding-left: 500px;
+	color:white;
+	font-size: 60px;
+}
+
+.box{
+	position:left;
+	width: 200px;
+	height: 350px;
+	border: 10px solid white;
+	padding-left: 50px;
+	top:50%;
+	left: 50%;
+	transform: translate(30%,5%);
+	
+	
+}
+
+.box h2{
+	font-size:24px;
+	color:white;
+	
+}
+
+.box p{
+	font-size: 18px;
+	color: white;
+}
+
+.form-check-label{
+	font-size: 18px;
+}
+
+.box2{
+	position:left;
+	width: 800px;
+	height: 350px;
+	border: 10px solid white;
+	padding-left: 50px;
+	top:10%;
+	left: 50%;
+	transform: translate(20%,0%);
+	
+	
+}
+
+.container3{
+	display: flex;
+}
+
+.box2 h2{
+	font-size:36px;
+	color:white;
+	
+}
+
+.box2 img{
+	width:200px;
+	height:150px;
+}
+.box2 p{
+	font-size: 24px;
+	color:white;
+	padding-left: 450px;
+	margin-top: -170px;
+}
+
+.box2 a{
+	transform: translate(-350%,-50%);
+}
+
+
+
+#carouselExampleIndicators {	
+  width: 600px; /* Set the width of the carousel */
+  height: 400px; /* Set the height of the carousel */
+  transform: translate(0%,0%)
+}
+
+#carouselExampleIndicators img{
+	object-fit: cover;
+	width: 600px;
+	height:400px;
+	
+}
+
+.DakshinTitle{
+	color:white;
+	font-size: 50px;
+	padding-left: 100px;
+	display:grid;
+}
+.rating{
+	display:flex;
+	margin-right:10px;
+	width:125px;
+	height:10px;
+}
+
+.mapimage{
+	width: 300px;
+	height:200px;
+	transform: translate(250%,-230%);
+}
+
+.description{
+	font-size: 20px;
+	transform: translate(65%,-170%);
+}
+
+.buttons{
+	display: flex;
+	transform: translate(-30%,-1380%);
+}
+
+.btn-primary{
+	margin-right: 20px;
+}
+
+.title1 h1{
+	text-align: center;
+	color: white;
+	transform: translate(0%,30%);
+	font-size: 60px;
+}
+
+#calendar{
+	width: 90%;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%,-10%);
+	color: white;
+	
+}
+
+.rateExperience{
+	width:100px;
+	background-color:white;
+}
+
+.StarContainer{
+	width:350px;
+	display:flex;
+	transform: translate(50%,20%);
+}
+
+.StarContainer input{
+	display: none;
+	
+}
+
+.StarContainer div{
+	color: #ffe400;
+}
+
+.StarContainer input + label{
+	font-size: 40px;
+	text-shadow: 1px 1px 0 #ffe400;
+	cursor: pointer;
+	
+}
+
+.StarContainer input:checked + label ~ label{
+	color: #838383;
+}
+
+.StarContainer label:active{
+	transform: scale(0.8);
+	transition: 0.3s ease; 
+}
+
+.StarContainer1{
+	width:350px;
+	display:flex;
+	transform: translate(50%,20%);
+}
+
+.StarContainer1 input{
+	display: none;
+	
+}
+
+.StarContainer1 div{
+	color: #ffe400;
+}
+
+.StarContainer1 input + label{
+	font-size: 40px;
+	text-shadow: 1px 1px 0 #ffe400;
+	cursor: pointer;
+	
+}
+
+.StarContainer1 input:checked + label ~ label{
+	color: #838383;
+}
+
+.StarContainer1 label:active{
+	transform: scale(0.8);
+	transition: 0.3s ease; 
+}
+
+.StarContainer2{
+	width:350px;
+	display:flex;
+	transform: translate(50%,30%);
+}
+
+.StarContainer2 input{
+	display: none;
+	
+}
+
+.StarContainer2 div{
+	color: #ffe400;
+}
+
+.StarContainer2 input + label{
+	font-size: 40px;
+	text-shadow: 1px 1px 0 #ffe400;
+	cursor: pointer;
+	
+}
+
+.StarContainer2 input:checked + label ~ label{
+	color: #838383;
+}
+
+.StarContainer2 label:active{
+	transform: scale(0.8);
+	transition: 0.3s ease; 
+}
+
+.FoodQuality{
+	transform: translate(12%,0%);
+	color: white;
+}
+
+.comments{
+	width:40%;
+	height:100%;
+	transform: translate(120%,-90%);
+}
+
+.comments div{
+	color: white;
+}
+
+.comments a{
+	transform: translate(-350%,0%);
+	width:180px;
+}
+
+.popupMessage{
+	top:150%;
+	transform: translate(170%,-500%);
+	width:290px;
+	height:250px;
+	background-color: white;
+	border-radius: 10px;
+	box-shadow: 0px 2px 5px 5px black;
+	
+	
+	
+}
+
+.popupMessage p{
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+.popupMessage h2{
+	margin-left:10px;
+}
+
+.popupMessage button{
+	margin-top: 10px;
+	margin-left: 250px;
+	border-radius: 5px;
+}
+
+.main{
+	transition:fliter 0ms ease-in-out 300ms;
+}
+
+body.active-popup {
+	overflow:hidden;
+}
+
+body.active-popup .main{
+	filter:blur(50px);
+	background:rgba(0,0,0,0.08);
+	transition:fliter 0ms ease-in-out 0ms;
+}
+
+body.active-popup .popupMessage{
+	transform:translate(170%,-250%);
+	opacity:1;
+	transition:trasnform ease-in-out 0ms, opacity 300ms ease-in-out;
+		
+} 	
+
+
+
+
+
+
+
+
