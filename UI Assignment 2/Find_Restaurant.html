@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>FindIndian</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jersey+20&display=swap" rel="stylesheet">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-inverse">                                    <!-- Navigation Bar code from W3Schools -->
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="index.html">Find Indian</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+		  <li class="active"><a href="index.html">Home</a></li>
+		  <li><a href="About Us.html">About Us</a></li>
+		  <li><a href="ContactUs.html">Contact Us</a></li>
+		  <li><a href="Calendar.html">Calendar</a></li>
+		  <li><a href="Find_Restaurant.html">Find A Restaurant</a></li>
+		  <li><a href="register.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+		  <li><a href="index.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br>
+<div class="container2">
+  <div class="jersey-20-regular">
+	<h2>Search for a Restaurant</h2>
+  </div>
+</div>  
+<div class="form-outline" data-mdb-input-init>
+  <input type="search" id="form1" class="form-control" placeholder="Search by name or location" aria-label="Search" />  <!-- from mdBootstrap 		https://mdbootstrap.com/docs/standard/forms/search/ Date Accessed:[24/04/2024]-->
+</div>
+<br>
+<div class="container3">
+	<div class="box">
+	  <div class="jersey-20-regular">
+		<h2>Filters<h2>
+		<p>Distance</p>
+		<input type="range" class="form-range" min="0" max="100">  <!-- from the bootstrap documentation website https://getbootstrap.com/docs/5.0/forms/range/ Date Accessed:[24/04/2024]-->
+		<p>Price(£)</p>
+		<input type="range" class="form-range" min="0" max="50">  
+		<p>Rating</p>
+		<input type="range" class="form-range" min="0" max="5"> 
+		<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		<label class="form-check-label" for="flexCheckDefault">
+		Vegetarian
+		</label><br>
+		<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		<label class="form-check-label" for="flexCheckDefault">
+		Vegan
+		</label><br>
+		<input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+		<label class="form-check-label" for="flexCheckDefault">
+		Gluten Free
+		</label>
+	  </div> 	
+	</div>
+	<div class="box2">
+		<div class="jersey-20-regular">
+			<h2>Dakshin</h2>
+			<img src="images/Dakshin_Main.jpg">
+			<img src="images/Dakshin_Thali.jpg">
+			<p>Dakshin is a South Indian Restaurant. Where you can find a wide variety of Dosas. They serve drinks such as south Indian Filter coffee
+			and a range of desserts from Gajar ka Halwa to Gulab Jamun</p>
+			<a class="btn btn-primary" href="Dakshin.html" role="button">View Details</a>
+		</div>
+	</div>
+</div>	
